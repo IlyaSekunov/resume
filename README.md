@@ -1,98 +1,98 @@
-# Sekunov Ilya
+# Секунов Илья
 
-**Location:** Nizhny Novgorod, Russia  
-**Phone:** +7-986-766-62-12  
+**Город:** Нижний Новгород, Россия  
+**Телефон:** +7-986-766-62-12  
 **Email:** [sekunovila@gmail.com](mailto:sekunovila@gmail.com)  
 **Telegram:** @IlyaSekunov
 
 ---
 
-## Objective
+## О себе
 
-A motivated Software Engineering student with a strong passion for solving complex problems through a foundation in mathematics. Possesses a keen interest in continuous learning and quickly adapting to new technologies. Fluent in English, enabling effective communication and seamless work with international codebases and documentation. I am eager to apply my analytical skills and enthusiasm to a challenging internship or entry-level position where I can contribute to meaningful projects and grow as a professional.
+Мотивированный студент направления «Программная инженерия» с глубоким интересом к решению сложных задач с помощью математического аппарата. Отличаюсь способностью быстро осваивать новые технологии и постоянно учиться. Свободно владею английским языком, что позволяет эффективно работать с международной документацией и кодом. Стремлюсь применить свои аналитические навыки на практике в рамках стажировки или позиции начального уровня, чтобы участвовать в значимых проектах и профессионально развиваться.
 
-**Spheres of Interest:**
-- Backend Development
-- Software Engineering
-- Data Analysis
-- Machine Learning
-- Computer Graphics / Vision
-- Text Processing
-- Algorithms and Data Structures
-- Mathematics and Research
-- Performance Analysis and Optimizations
+**Сферы интересов:**
+- Бэкенд-разработка
+- Системная архитектура
+- Анализ данных
+- Машинное обучение
+- Компьютерная графика и зрение
+- Обработка текстов
+- Алгоритмы и структуры данных
+- Математика и исследования
+- Анализ производительности и оптимизация
 
 ---
 
-## Experience
+## Опыт работы
 
-### ООО "Яндекс.Технологии", Nizhny Novgorod
-**Backend Developer Intern – SMB Advertising Products Team**  
+### ООО «Яндекс.Технологии», Нижний Новгород
+**Стажёр-разработчик бэкенда в команде рекламных продуктов SMB**  
 *12.04.2025 – 11.07.2025*
 
-- **Tech Stack:** Kotlin, Spring, MySQL, GRuT, GraphQL, REST, JUnit, MockK
+- **Стек:** Kotlin, Spring, MySQL, GRuT, GraphQL, REST, JUnit, MockK
 
-- **Improvement of Aggregated Ad Entity Status Calculation:**  
-  Identified and resolved bugs where advertisement statuses were incorrectly calculated at the code level. Analyzed all possible status combinations, aligned with the team, and corrected the logic to match expected behavior.
+- **Улучшение расчёта агрегированных состояний рекламных сущностей:**  
+  Выявил и исправил ошибки, когда статусы рекламы рассчитывались некорректно. Проанализировал все возможные комбинации статусов, согласовал логику с командой и привёл расчёт к ожидаемому поведению.
 
-- **Development of "Site Unavailable" Status for Yandex.Direct Simple Product Scenario:**  
-  Previously, clients advertising their websites could not determine if their site was reachable, leading to ad campaigns showing "all good" status even when the target site was down. Introduced a new "Site Unavailable" status that checks site availability before displaying the campaign status.
+- **Разработка статуса «Сайт недоступен» для сценария простого продукта Яндекс.Директ:**  
+  Ранее клиенты не могли узнать, доступен ли их сайт, и рекламная кампания могла показывать статус «всё хорошо», даже когда сайт был недоступен. Добавил новый статус, который проверяет доступность сайта перед его отображением.
 
-- **Data Migration to a New Format:**  
-  The old storage schema did not reflect certain business-logic relationships between fields, requiring additional database queries during reads and increasing GET request latency. Prepared and executed a database migration to store data in a format that preserves these relationships, eliminating the need for extra queries and improving read performance.
-
----
-
-### ООО "Яндекс.Технологии", Nizhny Novgorod
-**Backend Developer Intern – Identity Provider Team, Yandex Cloud**  
-*Dates not specified*
-
-- **Tech Stack:** Java, Spring, gRPC, YDB, Postgres, JUnit, Mockito
-
-- **Database Access Layer Extraction:**  
-  The project required adding support for Postgres alongside the existing YDB database. Refactored the codebase, which was tightly coupled to YDB-specific frameworks, by extracting common repository interfaces and removing vendor-specific APIs. This prepared the system for seamless integration with Postgres data access.
+- **Миграция данных в новый формат:**  
+  Старая схема хранения не отражала бизнес-связи между полями, что требовало дополнительных запросов при чтении и увеличивало время ответа GET-запросов. Подготовил и выполнил миграцию БД для сохранения связей между полями, что позволило убрать лишние запросы и ускорить чтение данных.
 
 ---
 
-## Achievements
+### ООО «Яндекс.Технологии», Нижний Новгород
+**Стажёр-разработчик бэкенда в команде Identity Provider Yandex Cloud**  
+*Даты не указаны*
 
-- **The 2025 ICPC Northern Eurasia Finals** (15–17 December 2025) – Third Degree Diploma *(Team Brain Damaged)*
-- **The 2025 ICPC Southern and Volga Russia Regional Contest** (28 October 2025) – Third Degree Diploma *(Team Brain Damaged)*
-- **The 2025 ICPC Southern and Volga Russia Qualification** (05 October 2025) – Second Degree Diploma *(Team Brain Damaged)*
-- **The 2024 ICPC Southern and Volga Russia Regional Contest** (11–12 November 2024) – Fortieth Place
-- **RuCode Finals 2025–2026** – Prize Winner
+- **Стек:** Java, Spring, gRPC, YDB, Postgres, JUnit, Mockito
+
+- **Выделение слоя доступа к базе данных:**  
+  В проекте потребовалось добавить поддержку Postgres наряду с существующей YDB. Провёл рефакторинг кода, который был сильно завязан на YDB-специфичном фреймворке: выделил общие интерфейсы репозиториев, убрал зависимость от специфического API. Это сделало код готовым к реализации доступа к данным через Postgres.
 
 ---
 
-## Education
+## Достижения
 
-**NRU HSE, Nizhny Novgorod**  
-*Bachelor of Software Engineering* | 2022 – 2026
+- **ICPC Northern Eurasia Finals 2025** (15–17 декабря 2025) – Диплом III степени *(команда Brain Damaged)*
+- **ICPC Southern and Volga Russia Regional Contest 2025** (28 октября 2025) – Диплом III степени *(команда Brain Damaged)*
+- **ICPC Southern and Volga Russia Qualification 2025** (5 октября 2025) – Диплом II степени *(команда Brain Damaged)*
+- **ICPC Southern and Volga Russia Regional Contest 2024** (11–12 ноября 2024) – 40-е место
+- **RuCode Finals 2025–2026** – Призёр
 
-**Relevant Projects:**
+---
 
-- **Modern ASR Backend System** – A clean-architected offline speech-to-text transcription system following best practices and implementing a non-blocking API. Developed as part of the university diploma project.  
+## Образование
+
+**НИУ ВШЭ, Нижний Новгород**  
+*Бакалавр по направлению «Программная инженерия»* | 2022 – 2026
+
+**Проекты:**
+
+- **Современная ASR-система для офлайн-транскрипции речи** – Бэкенд с чистой архитектурой, неблокирующим API, разработанный в рамках дипломного проекта.  
   [https://github.com/IlyaSekunov/asr-backend](https://github.com/IlyaSekunov/asr-backend)
 
-- **Office Environment Enhancement Mobile App** – An app for suggesting ideas and improving the office environment. Completed as part of a 2-year coursework assignment with support from Tinkoff Mobile Laboratory curators.  
+- **Мобильное приложение для улучшения офисной среды** – Платформа для предложений идей по улучшению пространства. Выполнено в рамках 2-летнего курсового проекта при поддержке кураторов Tinkoff Mobile Laboratory.  
   [https://github.com/IlyaSekunov/office-app](https://github.com/IlyaSekunov/office-app)
 
-- **Hiring Process Optimization Mobile App** – A mobile app to streamline hiring processes. Developed as a 3-year coursework project with support from Tinkoff Mobile Laboratory curators.  
+- **Мобильное приложение для оптимизации процессов найма** – Реализовано в рамках 3-летнего курсового проекта с поддержкой Tinkoff Mobile Laboratory.  
   [https://github.com/T-Jobs/t-jobs-android](https://github.com/T-Jobs/t-jobs-android)
 
-- **Algorithms Performance Analysis** – Investigated the effectiveness of various algorithms for determining whether a set of points belongs to a set of rectangles. Conducted asymptotic complexity analysis and empirical time measurements to identify the most productive approaches, comparing theoretical assumptions with practical results.  
+- **Исследование эффективности алгоритмов принадлежности точек множеству прямоугольников** – Проведён анализ асимптотической сложности и замеров времени для выявления наиболее продуктивных подходов, выполнено сравнение теории с практикой.  
   [https://github.com/IlyaSekunov/algorithms-lab-2](https://github.com/IlyaSekunov/algorithms-lab-2)
 
 ---
 
-## Skills
+## Навыки
 
-### Programming Languages
+### Языки программирования
 - Java / Kotlin
 - C / C++
 - Python
 
-### Backend & Frameworks
+### Бэкенд и фреймворки
 - Spring (Core, Boot, Security, JDBC, MVC, REST, Data)
 - FastAPI
 - gRPC, GraphQL
@@ -100,34 +100,34 @@ A motivated Software Engineering student with a strong passion for solving compl
 - Kotlin Coroutines / Flow
 - Retrofit, Ktor
 
-### Databases
+### Базы данных
 - PostgreSQL, MySQL, SQLite
 - Room, DataStore
 - YDB
 - Redis, Redis Queue (RQ)
 
-### DevOps & Tools
+### DevOps и инструменты
 - Git
 - Docker
 - Grafana / Prometheus
 
-### Testing
+### Тестирование
 - JUnit, Mockito, MockK
 
-### Data Science & ML
+### Data Science и ML
 - Pandas, NumPy, Matplotlib
 - Scikit-learn
-- Classic Machine Learning
+- Классическое машинное обучение
 - Faster-Whisper, OpenAI Whisper
 
-### Other
-- Mathematics / Algorithms and Data Structures
-- Dependency Injection (Hilt, Koin)
+### Прочее
+- Математика / Алгоритмы и структуры данных
+- Внедрение зависимостей (Hilt, Koin)
 - Jetpack Compose
 
 ---
 
-## Languages
+## Языки
 
-- **Russian** – Native
-- **English** – B2 (Upper-Intermediate)
+- **Русский** – Родной
+- **Английский** – B2 (Выше среднего)
