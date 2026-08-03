@@ -41,7 +41,7 @@
 **Стажёр-разработчик бэкенда в команде Identity Provider Yandex Cloud**  
 *27.05.2026 – 26.08.2026*
 
-- **Стек:** Java, Spring, gRPC, YDB, PostgreSQL, JUnit, Mockito
+- **Стек:** Java, Spring Boot, gRPC / Protobuf, YDB, YOJ ORM, PostgreSQL, Liquibase, Log4j2, JSpecify, JUnit, AssertJ, Mockito, TestContainers
 
 - **Выделение слоя доступа к базе данных:**  
   В проекте потребовалось добавить поддержку PostgreSQL наряду с существующей YDB. Провёл большой рефакторинг кода, который был сильно завязан на YDB-специфичном фреймворке: 
@@ -95,7 +95,7 @@
 ### Бэкенд и фреймворки
 - Spring (Core, Boot, Security, JDBC, MVC, REST, Data)
 - FastAPI
-- gRPC, GraphQL
+- gRPC / Protobuf, GraphQL
 - HTTP, REST
 - Kotlin Coroutines / Flow
 - Retrofit, Ktor
@@ -104,6 +104,7 @@
 - PostgreSQL, MySQL, SQLite
 - Room, DataStore
 - YDB, GRuT
+- Liquibase
 - Redis, Redis Queue (RQ)
 
 ### DevOps и инструменты
@@ -112,7 +113,7 @@
 - Grafana / Prometheus
 
 ### Тестирование
-- JUnit, Mockito, MockK
+- JUnit, Mockito, MockK, TestContainers, AssertJ
 
 ### Data Science и ML
 - Pandas, NumPy, Matplotlib
