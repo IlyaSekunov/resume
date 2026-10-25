@@ -54,6 +54,24 @@
 
 ---
 
+### ООО «Яндекс.Технологии», Нижний Новгород
+**Разработчик программного обеспечения в команде Identity Provider Yandex Cloud**  
+*26.08.2026 - н.в.*
+
+- **Стек:** Java, Spring Boot, gRPC / Protobuf, YDB, YOJ ORM, PostgreSQL, Caffeine, Liquibase, Log4j2, JSpecify, JUnit, AssertJ, Mockito, TestContainers, Docker, Terraform, Salt
+
+- **Выделение слоя доступа к базе данных:**
+- Рефакторинг существующего кода;
+- Рефакторинг кэшей для работы в режиме read-through (существующие - eager, sharded);
+- Добавление PostgreSQL реализаций слоя доступа к БД и миграций.
+  
+- **Развитие IdP Yandex Cloud:**
+- Оптимизация запросов по удалению пользователей;
+- Разработка внутреннего и внешнего API;
+- Опубличивание приватного функционала для клиентов cli и Terraform.
+  
+---
+
 ## Достижения
 
 - **ICPC Northern Eurasia Finals 2025** (15–17 декабря 2025) – Диплом III степени *(команда Brain Damaged)*
@@ -93,12 +111,13 @@
 - Python
 
 ### Бэкенд и фреймворки
-- Spring (Core, Boot, Security, JDBC, MVC, REST, Data)
+- Spring
 - FastAPI
 - gRPC / Protobuf, GraphQL
 - HTTP, REST
 - Kotlin Coroutines / Flow
 - Retrofit, Ktor
+- Caffeine
 
 ### Базы данных
 - PostgreSQL, MySQL, SQLite
@@ -111,6 +130,8 @@
 - Git, Actions
 - Docker
 - Grafana / Prometheus
+- Terraform
+- Salt
 
 ### Тестирование
 - JUnit, Mockito, MockK, TestContainers, AssertJ
